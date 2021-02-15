@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 6.25%;
+}
+body {
+    font-size: 16rem;
+    font-family: "Roboto", sans-serif;
+    min-width: 720px;
+}
+.header {
+    background-color: white, #6197dd94;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10rem 40rem;
+    height: 15vh;
+    width: 80%;
+    border-radius: 30rem;
+    margin: 0 auto;
+}
+.header__title {
+    margin: 0;
+    padding: 10rem;
+    font-size: 25rem;
+    font-weight: bold;
+}
+.header__title:hover {
+    color: #7872c4;
+}
+.main-nav__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.main-nav__item {
+    padding: 20rem;
+    color: black;
+}
+.main-nav__item:hover {
+    color: #7872c4;
+}
+.main-nav__link {
+    text-decoration: none;
+    font-weight: bold;
+}
+.main {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+.home {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+.myself {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 40vh
+}
+.myself__figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    padding: 16rem;
+}
+.myself__figure img {
+    border-radius: 50%;
+    width: 80%;
+}
+.myself__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+.myself__text
+{
+    padding: 0rem 15rem;
+    font-size: 16rem;
+    font-family: "Archivo Black", cursive;
+}
+.motto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 80rem;
+    font-family: "Archivo Black", cursive;
+    width: 100%;
+    height: 40vh;
+
+}
+.motto__text {
+    padding: 8rem;
+}
+.footer {
+    background-color: white, #6197dd94;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 40rem;
+    height: 15vh;
+    width: 90%;
+    border-radius: 30rem;
+    margin: 0 auto;
+}
